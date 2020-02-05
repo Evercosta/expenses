@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import '../../../node_modules/bootstrap/dist/css/bootstrap.css';
+@import '../../../node_modules/@fortawesome/fontawesome-free/css/all.css';
+@import 'variables';
+
+* {
+    font-family: 'Avenir', 'Poppins', sans-serif;
+}
+
+//tira o arredondamentos das bordas
+.btn, .alert, .form-control, .card, .modal-content {
+    border-radius: 0px !important;
+}
+
+.btn-primary {
+    background-color: $featured;
+    border-color: $featured-dark;
+    &:hover {
+        background-color: $featured-dark;
+    }
+}
+
+.btn-outline-primary {
+    border-color: var(--featured) !important;
+    color: var(--featured) !important;
+    &:hover {
+      color: var(--darker) !important;
+      background-color: var(--featured) !important;
+    }
+  }
