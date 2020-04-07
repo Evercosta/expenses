@@ -52,13 +52,13 @@ export default {
   min-height: 100vh;
   color: var(--light);
   background-color: var(--darker);
-  .navigation-sidebar {
-    background-color: var(--dark-medium);
-    .app-title {
-      font-size: 20pt;
-      margin-top: 10px;
-      text-align: center;
-    }
-  }
+  // .navigation-sidebar {
+  //   background-color: var(--dark-medium);
+  //   .app-title {
+  //     font-size: 20pt;
+  //     margin-top: 10px;
+  //     text-align: center;
+  //   }
+  // }
 }
 </style>
